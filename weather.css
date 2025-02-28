@@ -96,7 +96,9 @@ center {
 }
 @media (max-width: 600px) {
     .search button {
-      width: 100%;  /* Full width on small screens */
+      width: 100%;
+      padding: 0.1em;
+      background-color: #9580f1;  /* Full width on small screens */
     }
   }
   
