@@ -29,7 +29,7 @@ body {
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
+    padding: 10px 20px;
     height: 60px;
     border-radius: 30px;
     flex: 1;
@@ -40,9 +40,9 @@ body {
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 5%;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
 .search button img {
@@ -94,3 +94,9 @@ center {
     margin-top: 10px;
     display: none;
 }
+@media (max-width: 600px) {
+    .search button {
+      width: 100%;  /* Full width on small screens */
+    }
+  }
+  
